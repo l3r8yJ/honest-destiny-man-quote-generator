@@ -1,0 +1,55 @@
+h1,
+p {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 32px;
+    color: rgb(201, 201, 201);
+}
+
+p {
+    font-size: 24px;
+    color: rgb(196, 189, 189);
+}
+
+body {
+    background: linear-gradient(90deg, #323e3f, rgb(0, 0, 0));
+}
+
+.btn {
+    background: linear-gradient(0deg, #5b695b52, #664040);
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.button1 {
+    margin: 0;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: white;
+    color: black;
+    border: 2px solid #2b3c3d;
+}
+
+.button1:hover {
+    background-color: #1e3a1f;
+    color: white;
+}
+
+.div-styel {
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
