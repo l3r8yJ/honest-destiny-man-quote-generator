@@ -1,8 +1,8 @@
-# 8b13b35e8b13b35e8b13b35e028b691b6788b138b13b35eead8cdbd18f2a8cac498ee22
+
 from vk_api import VkApi
 
 vkSession = VkApi(
-    token='8b13b35e8b13b35e8b13b35e028b691b6788b138b13b35eead8cdbd18f2a8cac498ee22')
+    token='token of your page')
 
 vk = vkSession.get_api()
 
